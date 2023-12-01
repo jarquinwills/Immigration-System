@@ -5,27 +5,22 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.CoreMatchers.instanceOf;
 
-/**
- * This class is used to test all the methods in the WorkFlowObject class.
- * @author Wills Jarquin
- * 
- */
 class WorkFlowObjectTests {
 	
 	/**
-	 * TEST 1: constructor test. This test ensures that initiated a variable of the WorkFlowObject class generates an object of its kind.
+	 * 
 	 */
 	@Test
 	void testConstructor() {
-		//generate new Workflow Object
+		//generate new Workflow Object.
 		WorkFlowObject wfObj = new WorkFlowObject();
-		System.out.println(wfObj.getClass());
-		System.out.println(WorkFlowObject.class);
+		
+		//Check if WorkflowObject was generated properly.
 		assertEquals(wfObj.getClass(), WorkFlowObject.class);
 	}
 	
 	/**
-	 * TEST 2: constructor with parameter test. This test ensures that initiated a variable of the WorkFlowObject class generates an object of its kind.
+	 * 
 	 */
 	@Test
 	void testConstructorWithParameter() {
@@ -40,7 +35,7 @@ class WorkFlowObjectTests {
 	}
 	
 	/**
-	 * TEST 3: setId() test. This test ensures setting ID will actually change the ID with no error.
+	 * 
 	 */
 	@Test
 	void testSetId() {
@@ -59,11 +54,11 @@ class WorkFlowObjectTests {
 	}
 	
 	/**
-	 * TEST 3: getId() test. This test ensures getting the ID gets the correct ID.
+	 * 
 	 */
 	@Test
 	void testGetId() {
-		//Default ID
+		//Default ID.
 		String id = "1234";
 		
 		//generate new Workflow Object.
