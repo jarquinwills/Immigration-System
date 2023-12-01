@@ -1,3 +1,6 @@
+package test.java;
+
+import org.openjfx.BusinessObject;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
@@ -30,5 +33,6 @@ class BusinessObjectTest {
 
     @Test
     public void testGetPetitionerLastName() {
-        assertEquals("This should return petitioner's last name.", petitionerLastName, bo.getPetitionerLastName());
+        assertEquals(petitionerLastName, bo.getPetitionerLastName());
     }
+}
