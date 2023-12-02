@@ -1,6 +1,6 @@
 package test.java;
 
-import org.openjfx.BusinessObject;
+import org.openjfx.WorkFlowObject;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
