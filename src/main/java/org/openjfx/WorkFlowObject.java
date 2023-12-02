@@ -28,14 +28,14 @@ import javafx.stage.Stage;
  *
  */
 public class WorkFlowObject extends Application{
-
+	
 	String id;
-
+	
 	/**
 	 * This object generates an instance of a WorkFlowObject.
 	 */
 	public WorkFlowObject() {
-		
+		this.id = "00001";
 	}
 
 	/**
@@ -44,7 +44,7 @@ public class WorkFlowObject extends Application{
 	 * @param id is the id to assign to the WorkFlowObject.
 	 */
 	public WorkFlowObject(String id) {
-
+		this.id = id;
 	}
 	
 	/**
@@ -137,6 +137,7 @@ public class WorkFlowObject extends Application{
 	 * @return a scene to render.
 	 */
 	public Scene getScene(Stage stage, LinkedList<BusinessObject> boListToReview, LinkedList<BusinessObject> boListToApprove) {
+
 		GridPane grid = new GridPane();
 		grid.setAlignment(Pos.CENTER);
 		grid.setHgap(10);
@@ -196,7 +197,7 @@ public class WorkFlowObject extends Application{
 		grid.add(approveBo, 2, 20);
 		return scene;
 	}
-
+	
 	/**
 	 * This method assigns an Id to the workflow object.
 	 * @param newId is the new id to set.
