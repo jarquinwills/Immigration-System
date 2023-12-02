@@ -1,4 +1,4 @@
-package project;
+package org.openjfx;
 
 import java.util.LinkedList;
 
