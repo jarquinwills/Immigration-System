@@ -1,6 +1,6 @@
 package JUnitTests;
 
-import project.BusinessObject;//.Step;
+import org.openjfx.BusinessObject;//.Step;
 
 import static org.junit.jupiter.api.Assertions.*;
 
