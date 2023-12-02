@@ -194,4 +194,20 @@ public class WorkFlowObject extends Application{
 		grid.add(approveBo, 2, 20);
 		return scene;
 	}
+
+	/**
+	 * This method assigns an Id to the workflow object.
+	 * @param newId is the new id to set.
+	 */
+	public void setId(String newId) {
+		this.id = newId;
+	}
+	
+	/**
+	 * This method assigns an Id to the workflow object.
+	 * @param newId is the new id to set.
+	 */
+	public String getId() {
+		return this.id;
+	}
 }
