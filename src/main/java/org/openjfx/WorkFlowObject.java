@@ -29,6 +29,8 @@ import javafx.stage.Stage;
  */
 public class WorkFlowObject extends Application{
 
+	String id;
+
 	/**
 	 * This object generates an instance of a WorkFlowObject.
 	 */
