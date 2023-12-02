@@ -39,10 +39,10 @@ class BusinessObjectTest {
     /**
      * Test 1 tests getPetitionerLastName() method
      */
-    // @Test
-    // public void testGetPetitionerLastName() {
-    //     assertEquals(petitionerLastName, bo.getPetitionerLastName());
-    // }
+    @Test
+    public void testGetPetitionerLastName() {
+        assertEquals(petitionerLastName, bo.getPetitionerLastName());
+    }
 
     /**
      * Test 2 tests getPetitionerFirstName() method
