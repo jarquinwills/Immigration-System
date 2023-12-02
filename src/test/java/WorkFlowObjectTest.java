@@ -1,5 +1,4 @@
-package JUnitTests;
-import project.WorkFlowObject;
+package org.openjfx;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
