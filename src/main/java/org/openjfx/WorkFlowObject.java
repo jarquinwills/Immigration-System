@@ -1,12 +1,5 @@
 package org.openjfx;
 
-/**
- * This class creates the object that handles the workflow of the system.
- * 
- * @author Wills Jarquin
- *
- */
-
 import java.util.LinkedList;
 
 import javafx.application.Application;
@@ -15,24 +8,32 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+/**
+ * This class creates the object that handles the workflow of the system.
+ * 
+ * @author Wills Jarquin
+ *
+ */
 public class WorkFlowObject extends Application{
-	
-	String id;
-	
+
 	/**
 	 * This object generates an instance of a WorkFlowObject.
 	 */
 	public WorkFlowObject() {
-		this.id = "00001";
+		
 	}
 
 	/**
@@ -41,7 +42,7 @@ public class WorkFlowObject extends Application{
 	 * @param id is the id to assign to the WorkFlowObject.
 	 */
 	public WorkFlowObject(String id) {
-		this.id = id;
+
 	}
 	
 	/**
@@ -134,7 +135,6 @@ public class WorkFlowObject extends Application{
 	 * @return a scene to render.
 	 */
 	public Scene getScene(Stage stage, LinkedList<BusinessObject> boListToReview, LinkedList<BusinessObject> boListToApprove) {
-
 		GridPane grid = new GridPane();
 		grid.setAlignment(Pos.CENTER);
 		grid.setHgap(10);
