@@ -36,38 +36,38 @@ class WorkFlowObjectTests {
 	/**
 	 * 
 	 */
-	// @Test
-	// void testSetId() {
-	// 	//Default ID.
-	// 	String id = "1234";
-	// 	String idVariation = "1235";
+	@Test
+	void testSetId() {
+		//Default ID.
+		String id = "1234";
+		String idVariation = "1235";
 		
-	// 	//generate new Workflow Object.
-	// 	WorkFlowObject wfObj = new WorkFlowObject(id);
+		//generate new Workflow Object.
+		WorkFlowObject wfObj = new WorkFlowObject(id);
 		
-	// 	//Reset ID to variation.
-	// 	wfObj.setId(idVariation);
+		//Reset ID to variation.
+		wfObj.setId(idVariation);
 		
-	// 	//Check if the id was assigned to the variation.
-	// 	assertEquals(idVariation, wfObj.getId());
-	// }
+		//Check if the id was assigned to the variation.
+		assertEquals(idVariation, wfObj.getId());
+	}
 	
-	// /**
-	//  * 
-	//  */
-	// @Test
-	// void testGetId() {
-	// 	//Default ID.
-	// 	String id = "1234";
+	/**
+	 * 
+	 */
+	@Test
+	void testGetId() {
+		//Default ID.
+		String id = "1234";
 		
-	// 	//generate new Workflow Object.
-	// 	WorkFlowObject wfObj = new WorkFlowObject();
+		//generate new Workflow Object.
+		WorkFlowObject wfObj = new WorkFlowObject();
 		
-	// 	//Reset ID to variation.
-	// 	wfObj.setId(id);
+		//Reset ID to variation.
+		wfObj.setId(id);
 		
-	// 	//Check if the get method matches what was assigned.
-	// 	assertEquals(id, wfObj.getId());
-	// }
+		//Check if the get method matches what was assigned.
+		assertEquals(id, wfObj.getId());
+	}
 
 }
