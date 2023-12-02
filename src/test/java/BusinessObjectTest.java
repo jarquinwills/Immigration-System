@@ -173,17 +173,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 18 tests getCurrentStep() method
-     
-    @Test
-    public void testGetCurrentStep() {
-        assertEquals("This should return current step.", currentStep, bo.getCurrentStep());
-    }
-    
-    */
-
-    /**
-     * Test 19 tests getApproveStatus() method
+     * Test 18 tests getApproveStatus() method
      */
     @Test
     public void testGetApproveStatus() {
@@ -191,7 +181,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 20 tests getEmailSent() method
+     * Test 19 tests getEmailSent() method
      */
     @Test
     public void testGetEmailSent() {
@@ -199,7 +189,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 21 tests setPetitionerLastName() method
+     * Test 20 tests setPetitionerLastName() method
      */
     @Test
     public void testSetPetitionerLastName() {
@@ -209,7 +199,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 22 tests setPetitionerFirstName() method
+     * Test 21 tests setPetitionerFirstName() method
      */
     @Test
     public void testSetPetitionerFirstName() {
@@ -219,7 +209,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 23 tests setBusinessName() method
+     * Test 22 tests setBusinessName() method
      */
     @Test
     public void testSetBusinessName() {
@@ -229,7 +219,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 24 tests setAddress() method
+     * Test 23 tests setAddress() method
      */
     @Test
     public void testSetAddress() {
@@ -239,7 +229,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 25 tests setPhoneNumber() method
+     * Test 24 tests setPhoneNumber() method
      */
     @Test
     public void testSetPhoneNumber() {
@@ -249,7 +239,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 26 tests setEmail() method
+     * Test 25 tests setEmail() method
      */
     @Test
     public void testSetEmail() {
@@ -259,7 +249,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 27 tests setEIN() method
+     * Test 26 tests setEIN() method
      */
     @Test
     public void testSetEIN() {
@@ -269,7 +259,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 28 tests setBeneficiaryLastName() method
+     * Test 27 tests setBeneficiaryLastName() method
      */
     @Test
     public void testSetBeneficiaryLastName() {
@@ -279,7 +269,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 29 tests setBeneficiaryFirstName() method
+     * Test 28 tests setBeneficiaryFirstName() method
      */
     @Test
     public void testSetBeneficiaryFirstName() {
@@ -289,7 +279,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 30 tests setBeneficiaryDOB() method
+     * Test 29 tests setBeneficiaryDOB() method
      */
     @Test
     public void testSetBeneficiaryDOB() {
@@ -299,7 +289,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 31 tests setBeneficiaryGender() method
+     * Test 30 tests setBeneficiaryGender() method
      */
     @Test
     public void testSetBeneficiaryGender() {
@@ -309,7 +299,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 32 tests setBeneficiaryA_Number() method
+     * Test 31 tests setBeneficiaryA_Number() method
      */
     @Test
     public void testSetBeneficiaryA_Number() {
@@ -319,7 +309,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 33 tests setBeneficiaryCountryOfBirth() method
+     * Test 32 tests setBeneficiaryCountryOfBirth() method
      */
     @Test
     public void testSetBeneficiaryCountryOfBirth() {
@@ -329,7 +319,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 34 tests setBeneficiaryAddress() method
+     * Test 33 tests setBeneficiaryAddress() method
      */
     @Test
     public void testSetBeneficiaryAddress() {
@@ -339,7 +329,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 35 tests setBeneficiaryArrivalDate() method
+     * Test 34 tests setBeneficiaryArrivalDate() method
      */
     @Test
     public void testSetBeneficiaryArrivalDate() {
@@ -349,7 +339,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 36 tests setBeneficiaryPassportExpirationDate() method
+     * Test 35 tests setBeneficiaryPassportExpirationDate() method
      */
     @Test
     public void testSetBeneficiaryPassportExpirationDate() {
@@ -359,7 +349,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 37 tests setWorkID() method
+     * Test 36 tests setWorkID() method
      */
     @Test
     public void testSetWorkID() {
@@ -369,7 +359,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 38 tests setApproveStatus() method
+     * Test 37 tests setApproveStatus() method
      */
     @Test
     public void testSetApproveStatus() {
@@ -379,7 +369,7 @@ class BusinessObjectTest {
     }
 
     /**
-     * Test 39 tests setEmailSent() method
+     * Test 38 tests setEmailSent() method
      */
     @Test
     public void testSetEmailSent() {
